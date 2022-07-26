@@ -7,34 +7,38 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     </head>
     <body>
+        <nav class="navbar navbar-expand-lg bg-info sticky-top shadow-sm py-3">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.png" alt="" height="24px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#watches">Watches</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#shoes">Shoes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#bags">Backpack</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <header>
             <!-- navbar start -->
-            <nav class="navbar navbar-expand-lg bg-info sticky-top shadow-sm py-3">
-                <div class="container">
-                    <a class="navbar-brand" href="#">
-                        <img src="./images/logo.png" alt="" height="24px">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Shoes</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Backpack</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Subscribe</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+            
             <!-- navbar end -->
 
             <!-- slider start -->
@@ -173,126 +177,155 @@
                 </div>
                 <!-- categories end -->
                 <!-- card start -->
+
                 <!-- watches -->
-                <div class="card-group my-5 row g-4">
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="card container p-4 border-0 shadow-lg">
-                            <img src="./images/watches/watch-1.png" class="card-img-top p-5" alt="...">
-                            <div class="text-start">
-                                <h3 class="card-title">Sony Watch</h3>
-                                <h2>$799</h2>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                                
-                                <button class="btn btn-danger text-capitalize px-4 py-2 fs-4">buy now</button>
+                <div class="mt-5" id="watches">
+                    <h1 class="text-capitalize fw-semi-bolder text-start fs-1 py-2 px-4 mt-0 w-25">watches</h1>
+                    <div class="card-group my-5 mt-0 row g-4">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card container p-4 border-0 shadow-lg">
+                                <img src="./images/watches/watch-1.png" class="card-img-top p-5" alt="...">
+                                <div class="text-start">
+                                    <h3 class="card-title">Sony Watch</h3>
+                                    <h2>$799</h2>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                    
+                                    <button class="btn btn-danger text-capitalize px-4 py-2 fs-4">buy now</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="card container p-4 border-0 shadow-lg">
-                            <img src="./images/watches/watch-2.png" class="card-img-top p-5" alt="...">
-                            <div class="text-start">
-                                <h3 class="card-title">Watch NE</h3>
-                                <h2>$450</h2>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                                
-                                <button class="btn btn-danger text-capitalize px-4 py-2 fs-4">buy now</button>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card container p-4 border-0 shadow-lg">
+                                <img src="./images/watches/watch-2.png" class="card-img-top p-5" alt="...">
+                                <div class="text-start">
+                                    <h3 class="card-title">Watch NE</h3>
+                                    <h2>$450</h2>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                    
+                                    <button class="btn btn-danger text-capitalize px-4 py-2 fs-4">buy now</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="card container p-4 border-0 shadow-lg">
-                            <img src="./images/watches/watch-3.png" class="card-img-top p-5" alt="...">
-                            <div class="text-start">
-                                <h3 class="card-title">Apple Watch</h3>
-                                <h2>$999</h2>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                                
-                                <button class="btn btn-danger text-capitalize px-4 py-2 fs-4">buy now</button>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card container p-4 border-0 shadow-lg">
+                                <img src="./images/watches/watch-3.png" class="card-img-top p-5" alt="...">
+                                <div class="text-start">
+                                    <h3 class="card-title">Apple Watch</h3>
+                                    <h2>$999</h2>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                    
+                                    <button class="btn btn-danger text-capitalize px-4 py-2 fs-4">buy now</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <!-- bags -->
-                <div class="card-group my-5 row g-4">
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="card container p-4 border-0 shadow-lg">
-                            <img src="./images/bags/bag-1.png" class="card-img-top pb-4" alt="...">
-                            <div class="text-start">
-                                <h3 class="card-title">Thole Red</h3>
-                                <h2>$199</h2>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                                
-                                <button class="btn btn-danger text-capitalize px-4 py-2 fs-4">buy now</button>
+                <div class="mt-5" id="bags">
+                    <h1 class="text-capitalize fw-semi-bolder text-start fs-1 py-2 px-4 mt-0 w-25">Backpack</h1>
+                    <div class="card-group my-5 mt-0 row g-4" >
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card container p-4 border-0 shadow-lg">
+                                <img src="./images/bags/bag-1.png" class="card-img-top pb-4" alt="...">
+                                <div class="text-start">
+                                    <h3 class="card-title">Ogio Red</h3>
+                                    <h2>$199</h2>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                    
+                                    <button class="btn btn-danger text-capitalize px-4 py-2 fs-4">buy now</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="card container p-4 border-0 shadow-lg">
-                            <img src="./images/bags/bag-2.png" class="card-img-top pb-4" alt="...">
-                            <div class="text-start">
-                                <h3 class="card-title">Burton Blue</h3>
-                                <h2>$250</h2>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                                
-                                <button class="btn btn-danger text-capitalize px-4 py-2 fs-4">buy now</button>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card container p-4 border-0 shadow-lg">
+                                <img src="./images/bags/bag-2.png" class="card-img-top pb-4" alt="...">
+                                <div class="text-start">
+                                    <h3 class="card-title">Burton Blue</h3>
+                                    <h2>$250</h2>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                    
+                                    <button class="btn btn-danger text-capitalize px-4 py-2 fs-4">buy now</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="card container p-4 border-0 shadow-lg">
-                            <img src="./images/bags/bag-3.png" class="card-img-top pb-4" alt="...">
-                            <div class="text-start">
-                                <h3 class="card-title">Travon Black</h3>
-                                <h2>$299</h2>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                                
-                                <button class="btn btn-danger text-capitalize px-4 py-2 fs-4">buy now</button>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card container p-4 border-0 shadow-lg">
+                                <img src="./images/bags/bag-3.png" class="card-img-top pb-4" alt="...">
+                                <div class="text-start">
+                                    <h3 class="card-title">Travon Black</h3>
+                                    <h2>$299</h2>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                    
+                                    <button class="btn btn-danger text-capitalize px-4 py-2 fs-4">buy now</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- shoes -->
-                <div class="card-group my-5 row g-4">
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="card container p-4 border-0 shadow-lg">
-                            <img src="./images/shoes/shoe-1.png" class="card-img-top pb-4" alt="...">
-                            <div class="text-start">
-                                <h3 class="card-title">Sply 350</h3>
-                                <h2>$199</h2>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                                
-                                <button class="btn btn-danger text-capitalize px-4 py-2 fs-4">buy now</button>
+                <div class="mt-5" id="shoes">
+                    <h1 class="text-capitalize fw-semi-bolder text-start fs-1 py-2 px-4 mt-0 w-25">Shoes</h1>
+                    <div class="card-group my-5 mt-0 row g-4" >
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card container p-4 border-0 shadow-lg">
+                                <img src="./images/shoes/shoe-1.png" class="card-img-top pb-4" alt="...">
+                                <div class="text-start">
+                                    <h3 class="card-title">Sply 350</h3>
+                                    <h2>$199</h2>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                    
+                                    <button class="btn btn-danger text-capitalize px-4 py-2 fs-4">buy now</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="card container p-4 border-0 shadow-lg">
-                            <img src="./images/shoes/shoe-2.png" class="card-img-top pb-4" alt="...">
-                            <div class="text-start">
-                                <h3 class="card-title">Nike Maxzoom</h3>
-                                <h2>$250</h2>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                                
-                                <button class="btn btn-danger text-capitalize px-4 py-2 fs-4">buy now</button>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card container p-4 border-0 shadow-lg">
+                                <img src="./images/shoes/shoe-2.png" class="card-img-top pb-4" alt="...">
+                                <div class="text-start">
+                                    <h3 class="card-title">Nike Maxzoom</h3>
+                                    <h2>$250</h2>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                    
+                                    <button class="btn btn-danger text-capitalize px-4 py-2 fs-4">buy now</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="card container p-4 border-0 shadow-lg">
-                            <img src="./images/shoes/shoe-3.png" class="card-img-top pb-4" alt="...">
-                            <div class="text-start">
-                                <h3 class="card-title">Nike Airmax</h3>
-                                <h2>$299</h2>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                                
-                                <button class="btn btn-danger text-capitalize px-4 py-2 fs-4">buy now</button>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card container p-4 border-0 shadow-lg">
+                                <img src="./images/shoes/shoe-3.png" class="card-img-top pb-4" alt="...">
+                                <div class="text-start">
+                                    <h3 class="card-title">Nike Airmax</h3>
+                                    <h2>$299</h2>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                    
+                                    <button class="btn btn-danger text-capitalize px-4 py-2 fs-4">buy now</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 
                 <!-- card end -->
+
+                <!-- subscription form start-->
+                <div class="mt-5" id="subscribe">
+                    <form class="container bg-info rounded-4">
+                        <div class="mb-3 d-flex justify-content-center w-100 m-auto py-5 text-start">
+                            <div>
+                                <h2 class="text-uppercase">let's stay in touch</h2>
+                                <h4 class="text-secondary">Get updates on sales, specials and more</h4>
+                                <input type="email" placeholder="Email Address@" class="form-control fs-4" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                
+                                <button type="submit" class="btn btn-danger text-capitalize px-4 py-2 fs-4 my-3">Subscribe Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </section>
+            <footer class="mt-5">
+                <p class="mt-5 text-center"><small>©2023. Panda Commerce. All rights reserved. Design by : Sofia, Bulgaria. Developed by : Anik K Datta</small></p>
+            </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     </body>
 </html>
